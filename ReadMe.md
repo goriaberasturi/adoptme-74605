@@ -21,12 +21,10 @@ Link de DockerHub a la imágen:
 docker pull goriaberasturi13/adoptme-api
 ```
 
-### 2. Ejecucion del contenedor
+### 2. Ejecucion del contenedorW
 
 ```bash
-docker run -p 8080:8080 \
-  -e MONGO_URL=MONGO_URL=mongodb+srv://goricarhue2015:baseprueba123@cluster0.ft6cz.mongodb.net/adoptme-74605-dev \
-  goriaberasturi13/adoptme-api
+docker run -p 8080:8080 -e MONGO_URL=mongodb+srv://goricarhue2015:baseprueba123@cluster0.ft6cz.mongodb.net/adoptme-74605-dev goriaberasturi13/adoptme-api
 ```
 
 ---
