@@ -1,4 +1,4 @@
-# 🐾 AdoptMe API
+# AdoptMe API
 
 Proyecto final Backend 3: API para la gestion de usuarios, mascotas y adopciónes.  
 Desarrollado con Node.js, Express y MongoDB.
@@ -47,7 +47,7 @@ docker run -p 8080:8080 \
 
 ---
 
-## 🧪 Tests
+## Tests
 
 El proyecto incluye tests funcionales usando:
 
